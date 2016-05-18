@@ -14,6 +14,7 @@ node {
 
    // Mark the code build 'stage'....
    stage 'Build'
+   input 'Ready to go?'
    // Run the maven build
    bat "${mvnHome}\\bin\\mvn verify"
 }
