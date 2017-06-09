@@ -1,5 +1,6 @@
 node {
    // Mark the code checkout 'stage'....
+   //Changes are made 6/9/17
    stage 'Checkout'
 
    // Checkout code from repository
