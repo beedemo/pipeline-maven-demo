@@ -1,4 +1,5 @@
 pipeline {
+	options { buildDiscarder(logRotator(numToKeepStr: '5')) }
     agent { label 'maven-jdk-8' }
     stages {
         stage('Test') {
